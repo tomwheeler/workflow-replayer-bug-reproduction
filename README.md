@@ -13,4 +13,6 @@ which references version 1.22.1 of the Go SDK.
 3. Observe test failing due to unexpected error
    `unknown field "workerVersioningId" in history.WorkflowTaskCompletedEventAttributes`
 
-
+Now, checkout the `sdk-v1.19.0` branch in git, run `go mod tidy`, and 
+repeat the steps. The code has not changed, only the version of the 
+Go SDK (and its dependencies), yet the test now passes.
